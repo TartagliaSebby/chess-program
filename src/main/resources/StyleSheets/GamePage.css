@@ -1,0 +1,6 @@
+.turn-start{
+    -fx-border-color:black;
+}
+.turn-end{
+    -fx-border-color:null;
+}

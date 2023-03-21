@@ -1,0 +1,19 @@
+.background{
+    -fx-background-color: rgb(221, 233, 238)
+}
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #190744;
+    -fx-font-size: 15pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+.button:hover{
+    -fx-opacity:0.7;
+}
+.table-view .column-header .label {
+    -fx-background-color: rgb(170, 231, 231);
+}

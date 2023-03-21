@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.solaris.chess.view.PawnPromotionController">
+   <children>
+      <Text layoutX="21.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the Piece you want to promote to">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="bishopImg" fitHeight="103.0" fitWidth="112.0" layoutX="34.0" layoutY="134.0" pickOnBounds="true" />
+      <ImageView fx:id="rookImg" fitHeight="103.0" fitWidth="112.0" layoutX="175.0" layoutY="134.0" pickOnBounds="true" />
+      <ImageView fx:id="knightImg" fitHeight="103.0" fitWidth="112.0" layoutX="313.0" layoutY="134.0" pickOnBounds="true" />
+      <ImageView fx:id="queenImg" fitHeight="103.0" fitWidth="112.0" layoutX="455.0" layoutY="134.0" pickOnBounds="true" />
+      <Button fx:id="Queen" layoutX="455.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleSelect" prefHeight="103.0" prefWidth="112.0" styleClass="promotion-button" />
+      <Button fx:id="Bishop" layoutX="34.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleSelect" prefHeight="103.0" prefWidth="112.0" styleClass="promotion-button" />
+      <Button fx:id="Rook" layoutX="175.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleSelect" prefHeight="103.0" prefWidth="112.0" styleClass="promotion-button" />
+      <Button fx:id="Knight" layoutX="313.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleSelect" prefHeight="103.0" prefWidth="112.0" styleClass="promotion-button" />
+   </children>
+</AnchorPane>

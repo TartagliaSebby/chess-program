@@ -1,0 +1,11 @@
+.promotion-button{
+    -fx-opacity: 0;
+    -fx-background-color: White;
+    -fx-border-color:black;
+    
+}
+.promotion-button:hover{
+    -fx-opacity: 0.35;
+    -fx-background-color: White;
+    -fx-border-color:black
+}

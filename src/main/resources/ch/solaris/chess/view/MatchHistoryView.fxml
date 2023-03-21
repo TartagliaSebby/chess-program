@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" styleClass="background" stylesheets="@../../../../StyleSheets/ProgramTheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.solaris.chess.view.MatchHistoryViewController">
+   <children>
+      <Button layoutX="69.0" layoutY="63.0" mnemonicParsing="false" onAction="#returnToMenu" prefHeight="50.0" prefWidth="194.0" text="Return to Menu" />
+      <GridPane layoutX="390.0" layoutY="78.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-border-color: black;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="80.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="80.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="60.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="80.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="80.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="80.0" prefWidth="60.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="-Infinity" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="80.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="80.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);">
+               <children>
+                  <Pane fx:id="space57" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bRook.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="2">
+               <children>
+                  <Pane fx:id="space59" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bBishop.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="4">
+               <children>
+                  <Pane fx:id="space61" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bKing.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="6">
+               <children>
+                  <Pane fx:id="space63" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bKnight.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space50" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space52" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space54" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space56" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space41" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space43" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space45" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space47" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space34" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space36" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space38" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space40" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space25" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space27" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space29" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space31" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space18" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space20" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space22" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space24" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space9" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space11" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space13" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space15" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space2" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wKnight.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space4" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wQueen.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space6" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wBishop.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(231, 184, 141) rgb(231, 184, 141);" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space8" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wRook.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="1">
+               <children>
+                  <Pane fx:id="space58" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bKnight.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="3">
+               <children>
+                  <Pane fx:id="space60" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bQueen.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="5">
+               <children>
+                  <Pane fx:id="space62" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bBishop.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="7">
+               <children>
+                  <Pane fx:id="space64" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bRook.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space49" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space51" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space53" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <children>
+                  <Pane fx:id="space55" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/bPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space42" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space44" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space46" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <children>
+                  <Pane fx:id="space48" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space33" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space35" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space37" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <children>
+                  <Pane fx:id="space39" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space26" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space28" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space30" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <children>
+                  <Pane fx:id="space32" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space17" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space19" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space21" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <children>
+                  <Pane fx:id="space23" prefHeight="80.0" prefWidth="80.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space10" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space12" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space14" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <children>
+                  <Pane fx:id="space16" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wPawn.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space1" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wRook.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space3" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wBishop.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space5" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wKing.png&quot;);" />
+               </children>
+            </Pane>
+            <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: rgb(255,248,220);" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <children>
+                  <Pane fx:id="space7" prefHeight="80.0" prefWidth="80.0" style="-fx-background-image: url(&quot;/images/wKnight.png&quot;);" />
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+      <Button layoutX="747.0" layoutY="778.0" mnemonicParsing="false" onAction="#nextMove" prefHeight="67.0" prefWidth="134.0" text="Next">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="moveCounterLabel" layoutX="664.0" layoutY="720.0" text="Label">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="601.0" layoutY="23.0" text="Match Replay">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="534.0" layoutY="778.0" mnemonicParsing="false" onAction="#prevMove" prefHeight="67.0" prefWidth="134.0" text="Back">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
